@@ -203,6 +203,12 @@
 .docs-bg-linkedin {
   background-image: url("../images/linkedin.svg");
 }
+.docs-bg-devto {
+  background-image: url("../images/devto.svg");
+}
+.docs-bg-goodreads {
+  background-image: url("../images/goodreads.svg");
+}
 .docs-button-share {
   background-size: 80%;
   background-position: center;
