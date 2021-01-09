@@ -24,6 +24,7 @@
   position: relative;
   max-width: 80%;
   margin: 3rem auto -12rem;
+  background: #fff;
 }
 .phone + .phone {
   display: none;
@@ -32,10 +33,20 @@
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
+  /*background-image: url('../images/values-bg.jpg');*/
+  /*background-size: cover;*/
+  /*color: #fff;*/
+  border-top: 1px solid #ddd;
   padding-bottom: 5rem;
+}
+.values .section-description {
+  margin-bottom: 4rem;
+}
+.values .row {
+  margin-bottom: 3rem;
+}
+.values .row img {
+  border: 1px solid #ddd;
 }
 .value-multiplier {
   margin-bottom: .5rem;
@@ -52,24 +63,43 @@
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
+  padding-top: 5rem !important;
+  padding-bottom: 10rem !important;
+  border-top: 1px solid #ddd;
 }
 
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
+  /*background-image: url('../images/values-bg.jpg');*/
+  /*background-size: cover;*/
+  /*color: #fff;*/
+  padding-top: 0 !important;
 }
-.categories .section-description { 
+
+.categories .category {
+  text-align: left;
+  padding-top: 10rem;
+}
+
+.categories .section-description {
   margin-bottom: 4rem;
+}
+
+.top {
+  padding-top: 5rem !important;
+  padding-bottom: 0 !important;
+}
+
+.top .button {
+  margin-right: 5rem;
 }
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
-    padding: 12rem 0 11rem;
+    padding: 8rem 0 11rem;
   }
   .hero {
     padding-bottom: 12rem;
@@ -92,7 +122,7 @@
     max-height: 338px;
   }
   .hero-heading {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
   }
 }
 
@@ -100,15 +130,13 @@
 @media (min-width: 750px) {
   .hero {
     height: 190px;
+    padding: 14rem 0 14rem;
   }
   .hero-heading {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
   }
   .section {
-    padding: 14rem 0 15rem;
-  }
-  .hero {
-    padding: 16rem 0 14rem;
+    padding: 12rem 0 15rem;
   }
   .section-description {
     max-width: 60%;
@@ -132,13 +160,13 @@
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   .section {
-    padding: 20rem 0 19rem;
+    padding: 18rem 0 19rem;
   }
   .hero {
-    padding: 22rem 0;
+    padding: 14rem 0;
   }
   .hero-heading {
-    font-size: 3.0rem;
+    font-size: 4.0rem;
   }
   .phone {
     top: -16rem;
@@ -148,4 +176,42 @@
     top: -14rem;
     max-height: 570px;
   }
+}
+
+.docs-bg-instagram {
+  background-image: url("../images/instagram.svg");
+}
+.docs-bg-twitter {
+  background-image: url("../images/twitter.svg");
+}
+.docs-bg-facebook {
+  background-image: url("../images/facebook.svg");
+}
+.docs-bg-reddit {
+  background-image: url("../images/reddit.svg");
+}
+.docs-bg-medium {
+  background-image: url("../images/medium.svg");
+}
+.docs-bg-github {
+  background-image: url("../images/github.svg");
+}
+.docs-bg-dribbble {
+  background-image: url("../images/dribbble.svg");
+}
+.docs-bg-linkedin {
+  background-image: url("../images/linkedin.svg");
+}
+.docs-button-share {
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+.docs-button {
+  height: 36px;
+  padding: 0 18px;
+  border: none;
+  margin-bottom: 0;
+  margin-right: 1rem;
 }
